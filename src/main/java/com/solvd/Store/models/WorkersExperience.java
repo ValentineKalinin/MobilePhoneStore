@@ -3,22 +3,22 @@ package com.solvd.Store.models;
 import java.util.List;
 
 public class WorkersExperience extends BaseEntity {
-    private String experience;
+    private int experience;
     private List<Worker> workers;
 
     public WorkersExperience() {
     }
 
-    public WorkersExperience(String experience, List<Worker> workers) {
+    public WorkersExperience(int experience, List<Worker> workers) {
         this.experience = experience;
         this.workers = workers;
     }
 
-    public String getExperience() {
+    public int getExperience() {
         return experience;
     }
 
-    public void setExperience(String experience) {
+    public void setExperience(int experience) {
         this.experience = experience;
     }
 
