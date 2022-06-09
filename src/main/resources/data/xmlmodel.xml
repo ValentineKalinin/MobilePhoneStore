@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <db>
     <ages>
-        <ages id = "1">
+        <age id="1">
             <age>18</age>
-        </ages>
-        <ages id = "2">
+        </age>
+        <age id="2">
             <age>25</age>
-        </ages>
-        <ages id = "3">
+        </age>
+        <age id="3">
             <age>38</age>
-        </ages>
+        </age>
     </ages>
 
     <clients>
@@ -18,9 +18,7 @@
             <name>Pavel</name>
             <surname>Belov</surname>
             <ages>
-                <age id = "1">
-                    <age>21</age>
-                </age>
+                <age>21</age>
             </ages>
         </client>
 
@@ -29,15 +27,13 @@
             <name>Ivan</name>
             <surname>Ivanov</surname>
             <ages>
-                <age id = "1">
-                    <age>25</age>
-                </age>
+                <age>25</age>
             </ages>
         </client>
     </clients>
 
     <workers>
-        <worker id = "1">
+        <worker id="1">
             <name>Alex</name>
             <surname>Kozlov</surname>
             <experience>3</experience>
@@ -45,7 +41,7 @@
             <store>Graphit</store>
         </worker>
 
-        <worker id = "2">
+        <worker id="2">
             <name>Oleg</name>
             <surname>Petrov</surname>
             <experience>5</experience>
@@ -54,41 +50,41 @@
         </worker>
     </workers>
 
-    <orders>
-        <order id = "1">
-            <price>199.99</price>
-            <store>Graphit</store>
-            <client>
-                <name>Nikolay</name>
-                <surname>Boiko</surname>
-            </client>
-        </order>
+<!--    <orders>-->
+<!--        <order id="1">-->
+<!--            <price>199.99</price>-->
+<!--            <store>Graphit</store>-->
+<!--            <client>-->
+<!--                <name>Nikolay</name>-->
+<!--                <surname>Boiko</surname>-->
+<!--            </client>-->
+<!--        </order>-->
 
-        <order id = "2">
-            <price>281.5</price>
-            <store>Graphit</store>
-            <client>
-                <name>Smirnov</name>
-                <surname>Alexey</surname>
-            </client>
-        </order>
+<!--        <order id="2">-->
+<!--            <price>281.5</price>-->
+<!--            <store>Graphit</store>-->
+<!--            <client>-->
+<!--                <name>Smirnov</name>-->
+<!--                <surname>Alexey</surname>-->
+<!--            </client>-->
+<!--        </order>-->
 
-        <order id = "3">
-            <price>53</price>
-            <store>Zolyshka</store>
-            <client>
-                <name>Pavel</name>
-                <surname>Belov</surname>
-            </client>
-        </order>
-    </orders>
+<!--        <order id="3">-->
+<!--            <price>53</price>-->
+<!--            <store>Zolyshka</store>-->
+<!--            <client>-->
+<!--                <name>Pavel</name>-->
+<!--                <surname>Belov</surname>-->
+<!--            </client>-->
+<!--        </order>-->
+<!--    </orders>-->
 
     <countries>
-        <country id = "1">
+        <country id="1">
             <name>Belarus</name>
         </country>
 
-        <country id = "2">
+        <country id="2">
             <name>Russia</name>
         </country>
     </countries>

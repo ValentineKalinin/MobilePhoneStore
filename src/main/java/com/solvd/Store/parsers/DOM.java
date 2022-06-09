@@ -18,7 +18,7 @@ import java.util.List;
 public class DOM {
     private static final Logger LOGGER = LogManager.getLogger(DOM.class);
     public void getDrivers() {
-        File file = new File("src/main/resources/data/xmlmodel.xml");
+        File file = new File(System.getProperty("user.dir") + "/src/main/resources/data/xmlmodel.xml");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
