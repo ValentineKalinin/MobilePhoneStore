@@ -41,9 +41,9 @@ public class Order extends BaseEntity {
     @Override
     public String toString() {
         return "Order{" +
-                "price=" + price +
-                ", phoneStore=" + phoneStore +
-                ", client=" + client +
+                "price= " + price +
+                ", phoneStore= " + phoneStore +
+                ", client= " + client +
                 '}';
     }
 }

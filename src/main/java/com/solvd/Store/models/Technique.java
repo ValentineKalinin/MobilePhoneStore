@@ -8,8 +8,7 @@ public class Technique extends BaseEntity {
     private Price price;
     private Country country;
 
-    private Technique(){
-
+    public Technique(){
     }
 
     public Technique(String name, PhoneStore phoneStore, Model model, Year year, Price price, Country country) {
