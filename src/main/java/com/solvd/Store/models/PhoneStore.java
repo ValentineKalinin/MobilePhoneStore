@@ -1,6 +1,13 @@
 package com.solvd.Store.models;
 
-public class PhoneStore extends BaseEntity {
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlType;
+
+@XmlRootElement(name = "PhoneStore")
+@XmlType(propOrder = {"id", "name", "storeAddress", "storesSquare"})
+public class PhoneStore {
+    private Long id;
     private String name;
     private StoreAddress storeAddress;
     private StoresSquare storesSquare;
@@ -14,37 +21,51 @@ public class PhoneStore extends BaseEntity {
         this.storesSquare = storesSquare;
     }
 
+    @XmlElement
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    @XmlElement
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @XmlElement
+    public void setStoreAddress(StoreAddress storeAddress) {
+        this.storeAddress = storeAddress;
     }
 
     public StoreAddress getStoreAddress() {
         return storeAddress;
     }
 
-    public void setStoreAddress(StoreAddress storeAddress) {
-        this.storeAddress = storeAddress;
+    @XmlElement
+    public void setStoresSquare(StoresSquare storesSquare) {
+        this.storesSquare = storesSquare;
     }
 
     public StoresSquare getStoresSquare() {
         return storesSquare;
     }
 
-    public void setStoresSquare(StoresSquare storesSquare) {
-        this.storesSquare = storesSquare;
-    }
-
     @Override
     public String toString() {
         return "PhoneStore{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name=" + name +
                 ", storeAddress=" + storeAddress +
                 ", storesSquare=" + storesSquare +
                 '}';
     }
+
 }
 
