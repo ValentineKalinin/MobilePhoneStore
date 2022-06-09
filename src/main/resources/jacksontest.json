@@ -1,0 +1,14 @@
+[ {
+  "id" : 2,
+  "name" : "Gorizont",
+  "storeAddress" : {
+    "id" : null,
+    "address" : "Nemiga street 5",
+    "phoneStores" : null
+  },
+  "storesSquare" : {
+    "id" : null,
+    "square" : 22.4,
+    "phoneStores" : null
+  }
+} ]
