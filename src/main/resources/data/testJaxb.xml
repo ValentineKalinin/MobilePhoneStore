@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PhoneStore>
+    <id>2</id>
+    <name>Gorizont</name>
+    <storeAddress>
+        <address>Nemiga street 5</address>
+    </storeAddress>
+    <storesSquare>
+        <square>22.4</square>
+    </storesSquare>
+</PhoneStore>
