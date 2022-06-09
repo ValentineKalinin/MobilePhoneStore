@@ -2,7 +2,7 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class StoreAddress {
+public class StoreAddress extends BaseEntity {
     private String address;
     private List<PhoneStore> phoneStores;
 

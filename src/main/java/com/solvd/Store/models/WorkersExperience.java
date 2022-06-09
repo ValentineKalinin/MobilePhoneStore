@@ -2,7 +2,7 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class WorkersExperience {
+public class WorkersExperience extends BaseEntity {
     private String experience;
     private List<Worker> workers;
 

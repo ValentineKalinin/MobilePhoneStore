@@ -2,7 +2,7 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class Country {
+public class Country extends BaseEntity {
     private String country;
     private List<Technique> Techniques;
 

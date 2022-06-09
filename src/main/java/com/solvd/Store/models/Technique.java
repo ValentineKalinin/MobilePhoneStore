@@ -1,6 +1,6 @@
 package com.solvd.Store.models;
 
-public class Technique {
+public class Technique extends BaseEntity {
     private String name;
     private PhoneStore phoneStore;
     private Model model;

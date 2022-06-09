@@ -2,7 +2,7 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class Year {
+public class Year extends BaseEntity {
     private int year;
     private List<Technique> techniques;
 

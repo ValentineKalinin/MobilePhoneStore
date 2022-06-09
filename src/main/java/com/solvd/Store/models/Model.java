@@ -2,7 +2,7 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class Model {
+public class Model extends BaseEntity {
     private String model;
     private List<Technique> Techniques;
 

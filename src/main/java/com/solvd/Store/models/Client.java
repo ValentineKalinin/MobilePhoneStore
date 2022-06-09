@@ -6,7 +6,6 @@ public class Client extends BaseEntity {
     private Age age;
 
     public Client(){
-
     }
 
     public Client(String name, String surname, Age age) {

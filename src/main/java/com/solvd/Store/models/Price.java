@@ -2,7 +2,7 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class Price {
+public class Price extends BaseEntity {
     private double price;
     private List<Technique> techniques;
 

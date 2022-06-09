@@ -1,6 +1,6 @@
 package com.solvd.Store.models;
 
-public class PhoneStore {
+public class PhoneStore extends BaseEntity {
     private String name;
     private StoreAddress storeAddress;
     private StoresSquare storesSquare;

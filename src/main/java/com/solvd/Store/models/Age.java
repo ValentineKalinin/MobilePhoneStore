@@ -2,9 +2,12 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class Age {
+public class Age extends BaseEntity {
     private int age;
     private List<Client> clients;
+
+    public Age() {
+    }
 
     public Age(int age, List<Client> clients) {
         this.age = age;

@@ -2,7 +2,7 @@ package com.solvd.Store.models;
 
 import java.util.List;
 
-public class WorkersPosition {
+public class WorkersPosition extends BaseEntity {
     private String position;
     private List<Worker> workers;
 

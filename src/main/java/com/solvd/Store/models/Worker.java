@@ -1,6 +1,6 @@
 package com.solvd.Store.models;
 
-public class Worker {
+public class Worker extends BaseEntity {
     private String name;
     private String surname;
     private WorkersExperience workersExperience;
