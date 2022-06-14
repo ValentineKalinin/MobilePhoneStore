@@ -1,17 +1,15 @@
-package com.solvd.Store;
+package com.solvd.store;
 
-import com.solvd.Store.connection.ConnectionPool;
-import com.solvd.Store.models.PhoneStore;
-import com.solvd.Store.models.StoreAddress;
-import com.solvd.Store.models.StoresSquare;
-import com.solvd.Store.parsers.DOM;
-import com.solvd.Store.parsers.JAXB;
-import com.solvd.Store.parsers.JSON;
+import com.solvd.store.connection.ConnectionPool;
+import com.solvd.store.models.PhoneStore;
+import com.solvd.store.models.StoreAddress;
+import com.solvd.store.models.StoresSquare;
+import com.solvd.store.parsers.DOM;
+import com.solvd.store.parsers.JAXB;
+import com.solvd.store.parsers.JSON;
 import jakarta.xml.bind.JAXBException;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.SQLException;
 
 public class Runner {
     public static void main(String[] args) {
@@ -60,7 +58,7 @@ public class Runner {
             e.printStackTrace();
         }
 
-         //4. JackSon
+        //4. JackSon
         JSON.serialize(phoneStore);
         JSON.serialize(phoneStore2);
         JSON.deserialize();

@@ -1,4 +1,4 @@
-package com.solvd.Store.models;
+package com.solvd.store.models;
 
 import java.util.List;
 

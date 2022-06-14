@@ -1,4 +1,4 @@
-package com.solvd.Store.models;
+package com.solvd.store.models;
 
 public class Order extends BaseEntity {
     private double price;

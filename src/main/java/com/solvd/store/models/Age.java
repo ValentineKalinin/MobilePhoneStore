@@ -1,6 +1,4 @@
-package com.solvd.Store.models;
-
-import java.util.List;
+package com.solvd.store.models;
 
 public class Age extends BaseEntity {
     private int age;

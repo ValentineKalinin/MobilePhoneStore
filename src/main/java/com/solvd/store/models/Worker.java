@@ -1,4 +1,4 @@
-package com.solvd.Store.models;
+package com.solvd.store.models;
 
 public class Worker extends BaseEntity {
     private String name;

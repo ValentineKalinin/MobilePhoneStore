@@ -1,7 +1,7 @@
-package com.solvd.Store.parsers;
+package com.solvd.store.parsers;
 
-import com.solvd.Store.models.Age;
-import com.solvd.Store.models.Client;
+import com.solvd.store.models.Age;
+import com.solvd.store.models.Client;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.*;
@@ -14,6 +14,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+// Переделать. Код типо рабочий. Должно быть по-другому.
 
 public class DOM {
     private static final Logger LOGGER = LogManager.getLogger(DOM.class);

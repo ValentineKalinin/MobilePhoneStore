@@ -1,4 +1,4 @@
-package com.solvd.Store.models;
+package com.solvd.store.models;
 
 public class Technique extends BaseEntity {
     private String name;
