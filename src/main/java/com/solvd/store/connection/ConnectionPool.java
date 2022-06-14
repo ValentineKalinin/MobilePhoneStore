@@ -1,4 +1,4 @@
-package com.solvd.Store.connection;
+package com.solvd.store.connection;
 
 import java.io.FileInputStream;
 import java.io.IOException;
